@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="exam_common" />
+        <module name="exam_eureka" />
+        <module name="exam_orders_service_1229" />
+        <module name="exam_product_service_1129" />
+        <module name="exam_user_service_1229" />
+        <module name="exam_zuul" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud_parent_1229" options="-parameters" />
+      <module name="exam_common" options="-parameters" />
+      <module name="exam_eureka" options="-parameters" />
+      <module name="exam_orders_service_1229" options="-parameters" />
+      <module name="exam_product_service_1129" options="-parameters" />
+      <module name="exam_user_service_1229" options="-parameters" />
+      <module name="exam_zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

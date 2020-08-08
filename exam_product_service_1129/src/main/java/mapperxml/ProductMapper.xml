@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.czxy.mapper.ProductMapper">
+  <resultMap id="BaseResultMap" type="com.czxy.domain.Product">
+    <!--@mbg.generated generated on Sun Dec 29 14:49:59 CST 2019.-->
+    <id column="pid" jdbcType="BIGINT" property="pid" />
+    <result column="pname" jdbcType="VARCHAR" property="pname" />
+    <result column="market_price" jdbcType="DOUBLE" property="marketPrice" />
+    <result column="pimage" jdbcType="VARCHAR" property="pimage" />
+    <result column="pdate" jdbcType="DATE" property="pdate" />
+    <result column="pdesc" jdbcType="VARCHAR" property="pdesc" />
+    <result column="cid" jdbcType="BIGINT" property="cid" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Sun Dec 29 14:49:59 CST 2019.-->
+    pid, pname, market_price, pimage, pdate, pdesc, cid
+  </sql>
+</mapper>

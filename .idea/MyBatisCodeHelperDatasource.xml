@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="generateService" value="true" />
+        <option name="generateServiceInterface" value="true" />
+        <option name="javaMapperPackage" value="com.czxy.mapper" />
+        <option name="javaMapperPath" value="E:\dev\workspace\cloud_parent_1229\exam_orders_service_1229\src\main\java" />
+        <option name="javaModelPackage" value="com.czxy.domain" />
+        <option name="javaModelPath" value="E:\dev\workspace\cloud_parent_1229\exam_orders_service_1229\src\main\java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="exam_eureka" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="exam_eureka">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.czxy.mapper" />
+                  <option name="javaMapperPath" value="E:\dev\workspace\cloud_parent_1229\exam_orders_service_1229\src\main\java" />
+                  <option name="javaModelPacakge" value="com.czxy.domain" />
+                  <option name="javaModelPath" value="E:\dev\workspace\cloud_parent_1229\exam_orders_service_1229\src\main\java" />
+                  <option name="javaServiceInterfacePackage" value="com.czxy.service" />
+                  <option name="javaServiceInterfacePath" value="E:\dev\workspace\cloud_parent_1229\exam_orders_service_1229\src\main\java" />
+                  <option name="javaServicePackage" value="com.czxy.service.impl" />
+                  <option name="javaServicePath" value="E:\dev\workspace\cloud_parent_1229\exam_orders_service_1229\src\main\java" />
+                  <option name="xmlPackage" value="mapperxml" />
+                  <option name="xmlPath" value="E:\dev\workspace\cloud_parent_1229\exam_orders_service_1229\src\main\java" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="cloud_db1:user">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="" />
+                  <option name="javaModelName" value="User" />
+                  <option name="moduleName" value="exam_eureka" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="cloud_db2:category">
+              <value>
+                <TableGenerateConfig>
+                  <option name="javaModelName" value="Category" />
+                  <option name="moduleName" value="exam_eureka" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="cloud_db2:product">
+              <value>
+                <TableGenerateConfig>
+                  <option name="javaModelName" value="Product" />
+                  <option name="moduleName" value="exam_eureka" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="cloud_db3:orderitem">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="itemid" />
+                  <option name="javaModelName" value="Orderitem" />
+                  <option name="moduleName" value="exam_eureka" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="cloud_db3:orders">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="oid" />
+                  <option name="javaModelName" value="Orders" />
+                  <option name="moduleName" value="exam_eureka" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="useCommonMapper" value="true" />
+        <option name="useLomBokOnModel" value="true" />
+        <option name="xmlMapperPackage" value="mapperxml" />
+        <option name="xmlMapperPath" value="E:\dev\workspace\cloud_parent_1229\exam_orders_service_1229\src\main\java" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>

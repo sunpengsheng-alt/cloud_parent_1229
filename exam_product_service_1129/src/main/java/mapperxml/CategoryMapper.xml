@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.czxy.mapper.CategoryMapper">
+  <resultMap id="BaseResultMap" type="com.czxy.domain.Category">
+    <!--@mbg.generated generated on Sun Dec 29 14:49:59 CST 2019.-->
+    <id column="cid" jdbcType="BIGINT" property="cid" />
+    <result column="cname" jdbcType="VARCHAR" property="cname" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Sun Dec 29 14:49:59 CST 2019.-->
+    cid, cname
+  </sql>
+</mapper>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.czxy.mapper.OrderitemMapper">
+  <resultMap id="BaseResultMap" type="com.czxy.domain.Orderitem">
+    <!--@mbg.generated generated on Sun Dec 29 16:46:30 CST 2019.-->
+    <id column="itemid" jdbcType="BIGINT" property="itemid" />
+    <result column="count" jdbcType="INTEGER" property="count" />
+    <result column="subtotal" jdbcType="DOUBLE" property="subtotal" />
+    <result column="pid" jdbcType="BIGINT" property="pid" />
+    <result column="oid" jdbcType="BIGINT" property="oid" />
+    <result column="pname" jdbcType="VARCHAR" property="pname" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Sun Dec 29 16:46:30 CST 2019.-->
+    itemid, `count`, subtotal, pid, oid, pname
+  </sql>
+</mapper>
